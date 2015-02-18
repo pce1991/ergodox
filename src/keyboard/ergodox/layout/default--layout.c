@@ -91,7 +91,7 @@ KB_MATRIX_LAYER(
 	// left hand
 	0,	0,	0,	0,	0,	0,	0,	
 	0,	0,	KEY_SingleQuote_DoubleQuote,	0x34,	KEY_Dash_Underscore,	KEY_4_Dollar,	0,	
-	0,	KEY_Semicolon_Colon,	KEY_Comma_LessThan,	KEY_Period_GreaterThan,	0x38,	KEY_1_Exclamation,	
+	0,	KEY_Comma_LessThan,	KEY_Semicolon_Colon,	KEY_Period_GreaterThan,	0x38,	KEY_1_Exclamation,	
 	0,	0x33,	KEY_GraveAccent_Tilde,	0x35,	KEYPAD_Asterisk,	0,	0,	
 	0,	0,	0,	0,	0,	
 	0,	0,	
