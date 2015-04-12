@@ -66,8 +66,8 @@ KB_MATRIX_LAYER(
 	// unused
 	0,	
 	// left hand
-	0,	0,	0,	0,	0,	0,	0,	
-	KEY_LeftAlt,	0,	KEY_v_V,	KEY_x_X,	KEY_p_P,	KEY_y_Y,	KEY_Escape,	
+	0,	0,	0,	3,     3,	0,	0,	
+	KEY_Escape,	0,	KEY_v_V,	KEY_x_X,	KEY_p_P,	KEY_y_Y,	KEY_Escape,	
 	KEY_LeftShift,	KEY_a_A,	KEY_o_O,	KEY_e_E,	KEY_u_U,	KEY_i_I,	
 	KEY_LeftControl,	KEY_z_Z,	KEY_q_Q,	KEY_j_J,	KEY_k_K,	2,	KEY_LeftControl,	
 	0,	0,	0,	0,	1,	
@@ -75,10 +75,10 @@ KB_MATRIX_LAYER(
 	KEY_Escape,	KEY_Escape,	2,	
 	KEY_DeleteBackspace,	KEY_Tab,	1,	
 	// right hand
-	0,	0,	0,	0,	0,	0,	0,	
-	KEY_Escape,	KEY_f_F,	KEY_g_G,	KEY_c_C,	KEY_r_R,	0,	KEY_RightAlt,	
+	0,	0,	3,	3,	0,	0,	0,	
+	KEY_Escape,	KEY_f_F,	KEY_g_G,	KEY_c_C,	KEY_r_R,	0,	KEY_Escape,	
 	KEY_d_D,	KEY_h_H,	KEY_t_T,	KEY_n_N,	KEY_s_S,	KEY_LeftShift,	
-	KEY_RightControl,	2,	KEY_m_M,	KEY_w_W,	KEY_b_B,	KEY_l_L,	KEY_LeftControl,	
+	KEY_LeftControl,	2,	KEY_m_M,	KEY_w_W,	KEY_b_B,	KEY_l_L,	KEY_LeftControl,	
 	1,	0,	0,	0,	0,	
 	0,	KEY_RightAlt,	
 	2,	KEY_Escape,	KEY_Escape,	
@@ -115,7 +115,7 @@ KB_MATRIX_LAYER(
 	0,	0,	0,	0,	0,	0,	0,	
 	0,	0,	KEYPAD_Plus,	KEYPAD_Minus,	KEYPAD_Asterisk,	KEYPAD_Slash,	0,	
 	0,	KEY_1_Exclamation,	KEY_2_At,	KEY_3_Pound,	KEY_4_Dollar,	KEY_5_Percent,	
-	0,	0,	0,	0,	KEYPAD_Equal,	0,	0,	
+	0,	0,	0,	0,	KEY_Equal_Plus,	0,	0,	
 	0,	0,	0,	0,	0,	
 	0,	0,	
 	0,	0,	0,	
@@ -137,7 +137,7 @@ KB_MATRIX_LAYER(
 	// left hand
 	0,	0,	0,	0,	0,	0,	0,	
 	0,	0,	KEY_F6,	KEY_F7,	KEY_F8,	KEY_F9,	0,	
-	0,	KEY_F1,	KEY_F2,	KEY_F3,	KEY_F5,	0,	
+	0,	KEY_F1,	KEY_F2,	KEY_F3,	KEY_F4,	KEY_F5,	
 	0,	KEY_F10,	KEY_F11,	KEY_F12,	0,	0,	0,	
 	0,	0,	0,	0,	0,	
 	0,	0,	
@@ -301,7 +301,7 @@ KB_MATRIX_LAYER(
 	// unused
 	NULL,	
 	// left hand
-	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
+	NULL,	NULL,	NULL,	lpop3,	lpush3,	NULL,	NULL,	
 	kprrel,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	lpush2,	kprrel,	
@@ -310,7 +310,7 @@ KB_MATRIX_LAYER(
 	kprrel,	kprrel,	lpush2,	
 	kprrel,	kprrel,	lpush1,	
 	// right hand
-	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
+	NULL,	NULL,	lpush3,	lpop3,	NULL,	NULL,	NULL,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	kprrel,	
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	kprrel,	lpush2,	kprrel,	kprrel,	kprrel,	kprrel, kprrel,	
