@@ -370,7 +370,7 @@ KB_MATRIX_LAYER(
 	// unused
 	NULL,	
 	// left hand
-	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
+	NULL,	NULL,	NULL,	ktrans,	ktrans,	NULL,	NULL,	
 	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	
 	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	
 	ktrans,	kprrel,	kprrel,	kprrel,	NULL,	NULL,	NULL,	
@@ -379,7 +379,7 @@ KB_MATRIX_LAYER(
 	NULL,	NULL,	ktrans,	
 	ktrans,	ktrans,	ktrans,	
 	// right hand
-	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
+	NULL,	NULL,	ktrans,	ktrans,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
 	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	ktrans,	
 	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	ktrans,	
