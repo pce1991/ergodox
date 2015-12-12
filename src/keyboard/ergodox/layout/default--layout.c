@@ -110,7 +110,7 @@ KB_MATRIX_LAYER(
 // LAYER 2
 KB_MATRIX_LAYER(
 	// unused
-	0,	
+    ,	
 	// left hand
 	0,	0,	0,	0,	0,	0,	0,	
 	0,	0,	KEYPAD_Plus,	KEYPAD_Minus,	KEYPAD_Asterisk,	KEYPAD_Slash,	0,	
@@ -372,7 +372,7 @@ KB_MATRIX_LAYER(
 	// left hand
 	NULL,	NULL,	NULL,	ktrans,	ktrans,	NULL,	NULL,	
 	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	
-	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	
+	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	ktrans,	kprrel,	kprrel,	kprrel,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	
@@ -607,7 +607,7 @@ KB_MATRIX_LAYER(
 	// left hand
 	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	
-	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	NULL,	
+	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	ktrans,	kprrel,	kprrel,	kprrel,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	
